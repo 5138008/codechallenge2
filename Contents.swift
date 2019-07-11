@@ -76,7 +76,7 @@ for index in 0..<scholarNames.count {
 }
 
 for index in 0..<scholarNames.count {
-    if scholarAges[index] == 15
+    if scholarAges[index] == 15 || scholarAges[index] == 16
     {
         print("\(scholarNames[index]) is \(scholarAges[index]) and likes \(scholarHobbies[index])")
     }
